@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- BOOTSTRAP -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>ODIN Landing Page</title>
+  </head>
+  <body>
+    <section id="hero">
+      <header>
+        <h2>
+          <a class="hero__logo" href="#"> Soft Kitty</a>
+        </h2>
+        <div class="hero__navigation">
+          <a href="#">Home</a>
+          <a href="#about">About</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </header>
+
+      <div class="hero__content">
+        <div class="hero__info">
+          <h1>
+            This <span class="hero__info-cat">Cat</span>site is <br />
+            <span
+              ><span class="hero__info-cat">Purr</span>some
+              <img
+                src="images/paws.png"
+                alt="cat-paw"
+                width="40px"
+                height="40px"
+            /></span>
+          </h1>
+          <p class="hero__info-text">
+            One of the best things about cats is that they are very independent
+            creatures. Unlike dogs, who require quite a high level of attention
+            each day, cats are quite happy to have time to themselves. In fact,
+            cats will sleep for about 15 hours a day so you don't have to worry
+            about them being too bored when you're at work. <br />
+            Do you like and need cats?
+          </p>
+          <a href="#" class="hero__info-btn">Meow</a>
+        </div>
+        <img
+          class="hero__info-img"
+          src="images/cats.jpg"
+          alt="cats"
+          width="700px"
+          height="500px"
+        />
+      </div>
+    </section>
+    <section id="about" class="about">
+      <h3>
+        Some fun informations about <span class="hero__info-cat">Cats</span>
+      </h3>
+      <div class="about__content">
+        <div class="about__content-cats">
+          <img class="cat-img" src="images/cat1.jpg" alt="cat1" />
+          <h4>Cats spend 70% of their lives sleeping</h4>
+          <p class="about__content-text">
+            If you thought cats spent a lot of their lives sleeping, you’d be
+            right. According to Veterinary Hub, Cats actually spend 70% of their
+            lives sleeping, which works out to around 13-16 hours a day. It’s a
+            cat’s life!
+          </p>
+        </div>
+        <div class="about__content-cats">
+          <img class="cat-img" src="images/cat2.jpg" alt="cat2" />
+          <h4>The record for the longest cat ever is 123 cm's</h4>
+          <p class="about__content-text">
+            Domestic cats are usually considered to be quite small and dainty
+            creatures. But did you know the world’s longest cat was a Maine Coon
+            called Stewie, and was measured at 123 cm's? Whereas, the record for
+            the tallest cat belonged to Arcturus at a whopping 19.05 inches
+            tall! Those are some big cats.
+          </p>
+        </div>
+        <div class="about__content-cats">
+          <img class="cat-img" src="images/cat3.jpg" alt="cat3" />
+          <h4>House cats share 95.6% of their genetic makeup with tigers</h4>
+          <p class="about__content-text">
+            This cat fact will really blow your mind. A study discovered that
+            our little house cats share 95.6% of their genetic makeup with
+            tigers! They also share a lot of the same behaviours such as scent
+            and urine marking, prey stalking and pouncing.
+          </p>
+        </div>
+        <div class="about__content-cats">
+          <img class="cat-img" src="images/cat4.jpg" alt="cat4" />
+          <h4>The record for the loudest purr is 67.8db</h4>
+          <p class="about__content-text">
+            The record for the loudest purr by a domestic cat is currently held
+            by Merlin, a black and white cat from Torquay, UK. His purr is
+            67.8db and for context, this is nearly the same volume as a shower!
+            Most cats purr at around 25db.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="testimonials">
+      <div
+        id="carouselControls"
+        class="carousel slide my-slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <h2>
+              “In ancient times cats were worshipped as gods; they have not
+              forgotten this.” – Terry Pratchett, Writer
+            </h2>
+            <img
+              class="testimonials-img"
+              src="images/cat-slider.jpg"
+              alt="cat-profile"
+            />
+            <em>Cica Maca, Sarajevo</em>
+          </div>
+          <div class="carousel-item active">
+            <h2>
+              “Cats never listen. They’re dependable that way; when Rome burned,
+              the emperor’s cats still expected to be fed on time.” – Seanan
+              McGuire, Writer
+            </h2>
+            <img
+              class="testimonials-img"
+              src="images/cat2-slider.jpg"
+              alt="cat2-profile"
+            />
+            <em>Maca Diskrecija, Beograd</em>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="contact_wrapper-info">
+        <div class="container">
+          <h5 class="contact_wrapper-heading">Call To Action! It's time!</h5>
+          <p>
+            Sign up for our kittnes by clicking on that button right over there!
+          </p>
+          <a href="" class="contact_wrapper-button">Meow Up!</a>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>
+        Copyright ©
+        <a class="footer-link" href="#hero">Danijel Susakovic</a> 2022
+      </p>
+    </footer>
+  </body>
+</html>
