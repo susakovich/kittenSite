@@ -31,7 +31,7 @@ header {
   text-decoration: none;
   color: white;
   font-size: 22px;
-  transition: all ease-in-out 0.5s;
+  transition: all ease 0.5s;
 }
 
 .hero__navigation a:hover {
@@ -72,7 +72,7 @@ h1 {
 
 .hero__info-btn {
   display: inline-block;
-  width: 22%;
+  width: 26%;
   margin-top: 40px;
   font-size: 26px;
   text-decoration: none;
@@ -84,11 +84,9 @@ h1 {
 }
 
 .hero__info-btn:hover {
-  color: white;
-  width: 25%;
-  padding: 20px 45px;
-  font-size: 28px;
-  transition: all ease 1s;
+  color: #dca577;
+  background-color: white;
+  transition: all ease 2s;
   border-radius: 40px;
 }
 
@@ -152,7 +150,7 @@ h2 {
 }
 
 .testimonials-img {
-  width: 10%;
+  width: 15%;
   border-radius: 100%;
   margin: 20px;
 }
@@ -191,7 +189,7 @@ h2 {
   position: absolute;
   top: 50px;
   right: 100px;
-  width: 15%;
+  width: 20%;
   font-size: 20px;
   text-decoration: none;
   padding: 15px 30px;
@@ -202,10 +200,10 @@ h2 {
 }
 
 .contact_wrapper-button:hover {
-  top: 40px;
-  color: white;
-  transition: all ease 1s;
-  border: 2px solid #dca577;
+  color: #dca577;
+  background-color: white;
+  transition: all ease 2s;
+  border-radius: 40px;
 }
 
 /* Footer */
