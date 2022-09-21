@@ -26,6 +26,10 @@ header {
   font-family: "Dancing Script", cursive;
 }
 
+.hero__logo:hover {
+  color: #ffffff;
+}
+
 .hero__navigation a {
   margin-left: 20px;
   text-decoration: none;
