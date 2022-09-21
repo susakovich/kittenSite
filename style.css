@@ -39,7 +39,7 @@ header {
 }
 
 .hero__navigation a:hover {
-  font-size: 30px;
+  font-size: 26px;
   color: #dca577;
   border-bottom: 1px solid;
   transition: all ease 1s;
@@ -76,7 +76,7 @@ h1 {
 
 .hero__info-btn {
   display: inline-block;
-  width: 30%;
+  width: 32%;
   margin-top: 40px;
   font-size: 26px;
   text-decoration: none;
